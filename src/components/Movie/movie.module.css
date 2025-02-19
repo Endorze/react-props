@@ -12,6 +12,18 @@
     font-size: 2rem;
 }
 
+.historical {
+    background-color: forestgreen;
+}
+
+.children {
+    background-color: pink;
+}
+
+.horror {
+    background-color: red;
+}
+
 @media screen and (max-width: 768px) {
     .movie {
         flex: 1 0 100%
