@@ -1,11 +1,10 @@
 import styles from "./header.module.css"
 
-const Header = () => {
+const Header = ({title, subtitle}) => {
     return (
         <header className={styles.header}>
-            <h2 className={styles.title}>Hello, welcome to my website!</h2>
-            <p>Today we're learning how to use props to pass data.</p>
-            <h3 className={styles.subtitle}>My favorite movies of all time!</h3>
+            <h2 className={styles.title}>{title}</h2>
+            <h3 className={styles.subtitle}>{subtitle}</h3>
         </header>
     )
 }

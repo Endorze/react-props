@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header title="Welcome to Carlex Movies" subtitle="Enjoy the best movies in 7Dx"/>
         <MainContent />
       <Footer />
     </>
